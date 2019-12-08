@@ -1,0 +1,91 @@
+.main-navigation{
+    position: fixed;
+    left : 0;
+    top : 0;
+    width: 100%;
+    height: 3.5rem;
+    background: linear-gradient(-90deg, #6441A5, #2a0845);;
+    padding: 0 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.main-navigation_logo{
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.main-navigation_items{
+    padding: 0;
+    margin : 1.5rem;
+
+}
+
+.main-navigation_items ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.main-navigation_items li{
+    margin: 0 1.5rem;
+}
+
+.main-navigation_items a{
+    text-decoration: none;
+    color: white;
+    font-size: medium;
+    font-weight: 200;
+    font:  bold 18px/30px 'Gothic A1', sans-serif;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+    
+}
+
+.main-navigation_items a:hover{
+    color: deeppink;
+}
+
+.main-navigation_items a.active{
+    color: rgba(255, 106, 20, 0.966);
+}
+.main-navigation_items button{
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    width:130px;
+    background: white;
+}
+
+.main-navigation_items button:hover{
+    color: deeppink;
+}
+
+.main-navigation_items button.active{
+color: white;
+}
+
+
+.main-navigation_items button{
+    text-decoration: none;
+    color: white;
+    font-size: medium;
+    font-weight: 200;
+    font:  bold 18px/30px 'Gothic A1', sans-serif;
+    
+}
+
+.main-navigation_items button{
+    position: fixed;
+    height: 3.5rem;
+    background:#2a0845;
+    display: flex;
+    align-items: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    top :0px;
+}

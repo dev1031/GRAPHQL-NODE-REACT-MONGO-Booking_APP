@@ -1,0 +1,7 @@
+{
+    "env" : {
+        "MONGO_USER":"dherendra_dev",
+        "MONGO_PASSWORD": "dheeru101",
+        "MONGO_DB":"REACT_GRAPHQL_DATABASE"
+    }
+}
